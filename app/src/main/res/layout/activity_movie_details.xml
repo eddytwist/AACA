@@ -200,9 +200,10 @@
 
         <ImageView
             android:id="@+id/actor1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginTop="@dimen/actor_top"
+            app:layout_constraintDimensionRatio="1:1"
             android:src="@drawable/robert"
             app:layout_constraintEnd_toStartOf="@id/actor2"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
@@ -211,9 +212,11 @@
 
         <ImageView
             android:id="@+id/actor2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginTop="@dimen/actor_top"
+            android:layout_marginStart="@dimen/actor_photos"
+            app:layout_constraintDimensionRatio="1:1"
             android:src="@drawable/chris_ev"
             app:layout_constraintEnd_toStartOf="@id/actor3"
             app:layout_constraintStart_toEndOf="@id/actor1"
@@ -221,9 +224,11 @@
 
         <ImageView
             android:id="@+id/actor3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/actor_photos"
             android:layout_marginTop="@dimen/actor_top"
+            app:layout_constraintDimensionRatio="1:1"
             android:src="@drawable/mark"
             app:layout_constraintEnd_toStartOf="@id/actor4"
             app:layout_constraintStart_toEndOf="@id/actor2"
@@ -231,9 +236,11 @@
 
         <ImageView
             android:id="@+id/actor4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginTop="@dimen/actor_top"
+            android:layout_marginStart="@dimen/actor_photos"
+            app:layout_constraintDimensionRatio="1:1"
             android:src="@drawable/chris_hem"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toEndOf="@id/actor3"

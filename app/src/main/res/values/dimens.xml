@@ -13,5 +13,6 @@
     <dimen name="storyline_top">24dp</dimen>
     <dimen name="cast_end">10dp</dimen>
     <dimen name="actor_top">7dp</dimen>
+    <dimen name="actor_photos">8dp</dimen>
 
 </resources>
